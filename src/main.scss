@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+// .df-color {
+//   color: $color-text-basic !important;
+// }
+.ant-select-arrow {
+  scale: 2;
+  content: url('./assets/images/icon-arrow-down.svg');
+}
+.ant-select-open {
+  .ant-select-arrow {
+    scale: 2;
+    content: url('./assets/images/icon-arrow-up.svg');
+  }
+}
+.ant-tree-switcher_open {
+  content: url('./assets/images/icon-arrow-down.svg');
+}
+.ant-tree-switcher_close {
+  content: url('./assets/images/icon-arrow-right.svg');
+}

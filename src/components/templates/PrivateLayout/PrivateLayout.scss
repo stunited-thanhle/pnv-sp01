@@ -1,0 +1,185 @@
+.sider-layout {
+  background: #0f1a34 !important;
+  padding: 0 30px;
+  box-shadow: 6px 0 5px -2px #d9d9d9;
+  .ant-menu-item {
+    border-radius: 10px;
+    height: 50px !important;
+
+    .ant-menu-title-content {
+      font-weight: 600;
+      color: #fff !important;
+      &:hover {
+        color: #acb6c4 !important;
+      }
+      &:focus {
+        color: #acb6c4 !important;
+      }
+    }
+
+    .ant-menu-item-icon {
+      font-size: 22px !important;
+      color: #fff;
+    }
+  }
+  .ant-menu-submenu-title > .ant-menu-title-content {
+    flex: auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .ant-menu-vertical {
+    border-right: unset !important;
+  }
+  .ant-menu-inline {
+    border-right: unset !important;
+    background-color: #0f1a34 !important;
+  }
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #091023 !important;
+    border-radius: 10px;
+    color: #649ad7 !important;
+    .ant-menu-title-content {
+      color: #acb6c4 !important;
+    }
+    &:hover {
+      color: #121212 !important;
+    }
+    .ant-menu-item-icon {
+      font-size: 22px !important;
+      color: #acb6c4;
+    }
+  }
+  .ant-menu-item:not(.ant-menu-item-disabled):focus-visible,
+  .ant-menu-submenu-title:not(.ant-menu-item-disabled):focus-visible {
+    box-shadow: unset !important;
+  }
+  .ant-menu-vertical .ant-menu-item::after,
+  .ant-menu-vertical-left .ant-menu-item::after,
+  .ant-menu-vertical-right .ant-menu-item::after,
+  .ant-menu-inline .ant-menu-item::after {
+    border-right: unset !important;
+  }
+  .ant-menu-item-active {
+    background: #091023;
+    background-color: #091023 !important;
+    border-radius: 10px;
+    font-weight: 600 !important;
+
+    &:hover {
+      color: #121212;
+    }
+  }
+  .ant-menu-item:active,
+  .ant-menu-submenu-title:active {
+    background: #091023 !important;
+  }
+  .ant-menu.ant-menu-inline-collapsed > .ant-menu-item,
+  .ant-menu.ant-menu-inline-collapsed
+    > .ant-menu-item-group
+    > .ant-menu-item-group-list
+    > .ant-menu-item,
+  .ant-menu.ant-menu-inline-collapsed
+    > .ant-menu-item-group
+    > .ant-menu-item-group-list
+    > .ant-menu-submenu
+    > .ant-menu-submenu-title,
+  .ant-menu.ant-menu-inline-collapsed
+    > .ant-menu-submenu
+    > .ant-menu-submenu-title {
+    display: flex;
+    left: 0;
+    padding: 8px calc(50% - 11px) !important;
+    text-overflow: clip;
+    height: unset !important;
+  }
+  .ant-menu-inline-collapsed {
+    background: #0f1a34 !important;
+  }
+  .logo-sidebar {
+    width: 100%;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    // background-image: url('../../../assets/images/logo-iotplatform-white.png');
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .logo-content {
+      color: #fff;
+      font-size: 21px;
+      font-weight: bold;
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  .ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open {
+    font-weight: 600;
+    color: #fff;
+  }
+}
+
+.ant-layout {
+  background: #f9f9f9;
+  height: 100vh;
+  overflow: hidden;
+  .content {
+    display: flex;
+    justify-content: center;
+    background: #f9f9f9;
+    margin-bottom: 16px;
+  }
+  .outlet-layout {
+    width: 100%;
+  }
+}
+.ant-menu-submenu-title {
+  font-weight: 600;
+  color: #fff !important;
+  &:hover {
+    color: #acb6c4 !important;
+  }
+  &:focus {
+    color: #8f91aa !important;
+  }
+  .ant-menu-title-content {
+    font-weight: 600;
+    color: #fff !important;
+  }
+  .ant-menu-item-icon {
+    font-size: 22px !important;
+
+    color: #fff !important;
+  }
+  .ant-menu-submenu-arrow {
+    color: #fff !important;
+  }
+}
+.arrow-none {
+  .ant-menu-title-content {
+    font-weight: 600;
+    font-size: 16px !important;
+  }
+  .ant-menu-submenu-arrow {
+    display: none !important;
+  }
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #5646ff !important;
+}
+
+.ant-tabs-tab:hover {
+  color: #5646ff !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #5646ff !important;
+}
